@@ -3,8 +3,7 @@
     "description": "This is a wrapper around noUiSlider which allows creating a slider field on Filament Forms.",
     "require": {
         "php": "^8.0|^8.1",
-
-        "microweber-deps/livewire-range-slider": "*",
+        "microweber-deps/livewire-range-slider": "*"
 
     },
     "require-dev": {
