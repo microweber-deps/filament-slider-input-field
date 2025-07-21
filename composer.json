@@ -1,24 +1,14 @@
 {
-    "name": "nettantra/filament-slider-input-field",
+    "name": "microweber-deps/filament-slider-input-field",
     "description": "This is a wrapper around noUiSlider which allows creating a slider field on Filament Forms.",
     "require": {
         "php": "^8.0|^8.1",
-        "filament/forms": "^3.0-stable",
-        "illuminate/contracts": "^9.0|^10.0",
-        "jantinnerezo/livewire-range-slider": "^1.0",
-        "spatie/laravel-package-tools": "^1.13.0"
+
+        "microweber-deps/livewire-range-slider": "*",
+
     },
     "require-dev": {
-        "laravel/pint": "^1.0",
-        "nunomaduro/collision": "^6.0|^7.0",
-        "nunomaduro/larastan": "^2.0.1",
-        "orchestra/testbench": "^7.0|^8.0",
-        "pestphp/pest": "^1.21|^2.0",
-        "pestphp/pest-plugin-laravel": "^1.1|^2.0",
-        "phpstan/extension-installer": "^1.1",
-        "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^9.5|^10.0"
+     
     },
     "license": "MIT",
     "autoload": {
@@ -27,11 +17,7 @@
         }
     },
     "scripts": {
-        "post-autoload-dump": "@php package:discover --ansi",
-        "analyse": "vendor/bin/phpstan analyse",
-        "test": "vendor/bin/pest",
-        "test-coverage": "vendor/bin/pest --coverage",
-        "format": "vendor/bin/pint"
+       
     },
     "authors": [
         {
